@@ -10,7 +10,7 @@ const Footer = () => {
 
             <h3>LAPLATACOM,LLC</h3>
           </div>
-          <div className="col-md-6 col-lg-3 col-12 ft-2">
+          <div className="Footer-info1">
             <h5>Quick Links</h5>
             <ul>
               <li className="nav-item">
@@ -40,7 +40,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-6 col-lg-4 col-12 ft-3">
+          <div className="Footer-info2">
             <h5>Quick Links</h5>
             <p>
               <i className="fa-solid fa-phone-volume"></i> +92 3121324083
