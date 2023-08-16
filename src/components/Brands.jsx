@@ -15,6 +15,7 @@ import marca4 from "../assets/img/marca4.png";
 import marca5 from "../assets/img/marca5.png";
 import marca6 from "../assets/img/marca6.png";
 import empresa from "../assets/img/empresa.jpg";
+import future from "../assets/img/future.jpeg";
 
 const Brands = () => {
   const brands = [
@@ -52,12 +53,14 @@ const Brands = () => {
   return (
     <section className="brands" id="brands">
       <div className="brands-menu">
-        <h2>Brands</h2>
+        <h2>Get to know us</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero deleniti
-          reprehenderit quibusdam distinctio voluptas delectus nobis optio,
-          accusamus eaque quaerat totam omnis minus hic repellat neque
-          accusantium sit debitis fugiat?
+          Explore our prestigious brands, uncover how we started, and catch a
+          glimpse of our exciting future plans. With a focus on quality and
+          innovation, we showcase a diverse selection of industry-leading
+          brands. Our beginning is rooted in a passion for making a difference
+          in people's lives. Looking ahead, our future plans promise ongoing
+          growth and an even more enriching experience for our customers
         </p>
       </div>
       <TabContainer id="brands-tabs" defaultActiveKey="first">
@@ -126,7 +129,7 @@ const Brands = () => {
             <div className="tab3">
               <h2>Our Mission</h2>
               <div className="tab3-3">
-                <img src={empresa}></img>
+                <img src={future}></img>
 
                 <p>
                   At LaPlataCom, our mission is transparent and bold: to be the

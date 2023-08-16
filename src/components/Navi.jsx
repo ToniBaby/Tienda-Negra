@@ -46,10 +46,10 @@ const Navi = () => {
             }
             onClick={() => onUpdateActiveLink("Brands")}
           >
-            Brands
+            Explore
           </Nav.Link>
           <Nav.Link
-            href="mailto:mainini.tomi@gmail.com"
+            href="mailto:Wholesale@laplatacom.com"
             className={
               activeLink === "proovedores"
                 ? "active navbar-link"

@@ -11,30 +11,17 @@ const Footer = () => {
             <h3>LAPLATACOM,LLC</h3>
           </div>
           <div className="Footer-info1">
-            <h5>Quick Links</h5>
-            <p>
-              <i className="fa-solid fa-phone-volume"></i> +92 3121324083
-            </p>
-            <p>
-              <i className="fa-solid fa-envelope"></i>{" "}
-              waleedishfaq1515@gmail.com
-            </p>
-            <p>
-              <i className="fa-solid fa-paper-plane"></i> Abbottabad, Pakistan.
-            </p>
+            <h5>Contact sales</h5>
+            <p>(786) 966-9183</p>
+            <p>Wholesale@laplatacom.com</p>
+            <p>4696 NW 74th Ave Miami, FL 33166</p>
           </div>
           <div className="Footer-info2">
-            <h5>Quick Links</h5>
-            <p>
-              <i className="fa-solid fa-phone-volume"></i> +92 3121324083
-            </p>
-            <p>
-              <i className="fa-solid fa-envelope"></i>{" "}
-              waleedishfaq1515@gmail.com
-            </p>
-            <p>
-              <i className="fa-solid fa-paper-plane"></i> Abbottabad, Pakistan.
-            </p>
+            <h5>Oder Contacts</h5>
+
+            <p>Luciano@laplatacom.com</p>
+            <p>Caterina@laplatacom.com</p>
+            <p>Opening Hours 9:00 a.m. to 5:00 p.m./Monday to Friday (PST)</p>
           </div>
         </div>
       </div>

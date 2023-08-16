@@ -64,18 +64,18 @@ const Banner = () => {
           <span
             className="txt-rotate"
             dataperiod="1000"
-            data-rotate='[ "Soy Tomi", "Trabajo Farsan", "Programo" ]'
+            data-rotate='[ "Your Busines Venture", "Your Product Range", "Your Inventory Options" ]'
           >
             <span className="wrap">{text}</span>
           </span>
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          "With <strong>LAPLATACOM</strong>, you're choosing more than just a
+          brand; you're choosing an association built on quality and trust.
+          Explore how our values are reflected in every interaction. Your
+          satisfaction is our priority, and we're here to ensure that each
+          choice matters on your shopping journey."
         </p>
-        *{" "}
       </Col>
     </section>
   );

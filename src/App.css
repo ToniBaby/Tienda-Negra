@@ -390,6 +390,10 @@ span.navbar-text {
   background-image: linear-gradient(0deg, #a7a2a2, #fdf4f4);
   gap: 20px;
 }
+.Footer h3 h5 {
+  font-weight: 700;
+  margin-top: 10px;
+}
 .logo-footer {
   display: flex;
   flex-direction: column;
@@ -400,9 +404,9 @@ span.navbar-text {
 }
 .Footer-item {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+
   justify-content: center;
+  gap: 20px;
   padding: 0%;
   justify-content: space-between;
 }
@@ -410,6 +414,7 @@ span.navbar-text {
 .logo-footer {
   display: flex;
   padding: 0%;
+  width: 30%;
   align-items: center;
 }
 
@@ -417,13 +422,20 @@ span.navbar-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  width: 30%;
+  gap: 20px;
+  padding: 10px;
 }
+
 .Footer-info2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  width: 30%;
+  gap: 20px;
+  padding: 10px;
 }
 
 /* Tablet Styles */
