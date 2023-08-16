@@ -110,14 +110,14 @@ p.danger {
   transition: 0.32s ease-in-out; */
 }
 .navbar img {
-  width: 200px;
+  width: 150px;
 }
 nav.navbar a.navbar-brand {
   width: 20%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: rgb(8, 8, 8) !important;
+  color: rgb(8, 8, 8);
 
   font-size: 18px;
 }
@@ -133,8 +133,22 @@ span.navbar-text {
 
 .navi-links {
   display: flex;
+  color: black;
+  transition: color 0.3s;
   gap: 30px;
   justify-content: end;
+}
+.navi-links a:nth-child(1):hover {
+  color: #333131;
+  transition: color 0.3s;
+}
+.navi-links a:nth-child(2):hover {
+  color: #333131;
+  transition: color 0.3s;
+}
+.navi-links a:nth-child(3):hover {
+  color: #333131;
+  transition: color 0.3s;
 }
 
 /************ Banner Css ************/
@@ -188,6 +202,10 @@ span.navbar-text {
 
 /************ Brands Css ************/
 .brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 80px 0;
   position: relative;
   background-image: linear-gradient(0deg, #fdf4f4, #d8d1d1);
@@ -209,7 +227,7 @@ span.navbar-text {
   width: 56%;
 }
 .brands .nav.nav-pills {
-  width: 72%;
+  width: 75%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -268,26 +286,32 @@ span.navbar-text {
   border-radius: 10px;
   background-color: #fdf4f4;
   display: flex;
+  width: 80vw;
   flex-direction: column;
+
+  align-items: center;
   gap: 20px;
-  padding: 20px;
+  padding: 0px;
 }
 .tab1-fila1 {
   display: flex;
-  padding-left: 90px;
+  gap: 20px;
+  justify-content: center;
 }
 .tab1-fila2 {
   display: flex;
-  padding-left: 90px;
+  justify-content: center;
+  gap: 20px;
 }
 .tab1 img {
-  width: 30%;
+  width: 25%;
 }
 .tab2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80vw;
   gap: 20px;
   background-color: #fdf4f4;
   padding: 20px;
@@ -311,18 +335,19 @@ span.navbar-text {
 }
 .tab2 p {
   color: #0e0d0d;
+
+  text-align: justify;
+  text-align: left;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
 }
 .tab3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80vw;
   gap: 20px;
   background-color: #fdf4f4;
   padding: 20px;
@@ -350,7 +375,9 @@ span.navbar-text {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 10px 0;
-  text-align: center;
+  text-align: justify;
+  text-align: left;
+
   width: 56%;
   line-height: 1.5;
 }
@@ -358,7 +385,7 @@ span.navbar-text {
 /* Footer*/
 
 .Footer {
-  padding: 2rem 0;
+  padding: 50px;
 
   background-image: linear-gradient(0deg, #a7a2a2, #fdf4f4);
   gap: 20px;
@@ -373,13 +400,16 @@ span.navbar-text {
 }
 .Footer-item {
   display: flex;
-  padding-right: 150px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
   justify-content: space-between;
 }
 
 .logo-footer {
   display: flex;
-
+  padding: 0%;
   align-items: center;
 }
 
@@ -560,6 +590,7 @@ span.navbar-text {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70vw;
     gap: 25px;
     padding: 10px;
   }
@@ -577,7 +608,7 @@ span.navbar-text {
     padding: 20px;
   }
   .tab1 img {
-    width: 150px;
+    width: 30%;
   }
   .tab2 {
     display: flex;
@@ -612,7 +643,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
   }
   .tab3 {
@@ -648,7 +680,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
     line-height: 1.5;
   }
@@ -661,6 +694,7 @@ span.navbar-text {
   .logo-footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
   .Footer img {
@@ -668,8 +702,11 @@ span.navbar-text {
   }
   .Footer-item {
     display: flex;
+    padding: 0%;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 30px;
   }
 
   .logo-footer {
@@ -795,7 +832,7 @@ span.navbar-text {
     width: 60%;
     height: 80px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: rgb(255 255 255 / 10%);
     overflow: hidden;
   }
@@ -846,7 +883,6 @@ span.navbar-text {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 0 55px 55px 0;
   }
-
   .tab1 {
     border: 2px solid #a7a2a2;
 
@@ -869,7 +905,7 @@ span.navbar-text {
     padding: 0;
   }
   .tab1 img {
-    width: 100px;
+    width: 30%;
   }
   .tab2 {
     display: flex;
@@ -904,7 +940,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
   }
   .tab3 {
@@ -940,7 +977,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
     line-height: 1.5;
   }
@@ -962,6 +1000,7 @@ span.navbar-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0%;
   }
 
   .logo-footer {
@@ -991,10 +1030,11 @@ span.navbar-text {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 0%;
     gap: 10px;
   }
   .navbar img {
+    padding-right: 10px;
     width: 120px;
   }
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -1078,7 +1118,7 @@ span.navbar-text {
   }
   .brands p {
     color: #0e0d0d;
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
@@ -1163,7 +1203,7 @@ span.navbar-text {
     padding: 0;
   }
   .tab1 img {
-    width: 100px;
+    width: 30%;
   }
   .tab2 {
     display: flex;
@@ -1198,7 +1238,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 14px auto 30px auto;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
   }
   .tab3 {
@@ -1234,7 +1275,8 @@ span.navbar-text {
     letter-spacing: 0.8px;
     line-height: 1.5em;
     margin: 10px 0;
-    text-align: center;
+    text-align: left;
+
     width: 56%;
     line-height: 1.5;
   }
@@ -1256,6 +1298,8 @@ span.navbar-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0%;
+    gap: 20px;
   }
 
   .logo-footer {

@@ -63,7 +63,7 @@ const Banner = () => {
           {`Expand`}{" "}
           <span
             className="txt-rotate"
-            dataPeriod="1000"
+            dataperiod="1000"
             data-rotate='[ "Soy Tomi", "Trabajo Farsan", "Programo" ]'
           >
             <span className="wrap">{text}</span>
