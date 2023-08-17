@@ -1041,12 +1041,11 @@ span.navbar-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+
     padding: 0%;
     gap: 10px;
   }
   .navbar img {
-    padding-right: 10px;
     width: 120px;
   }
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -1296,7 +1295,7 @@ span.navbar-text {
     padding: 2rem 0;
 
     background-image: linear-gradient(0deg, #a7a2a2, #fdf4f4);
-    gap: 20px;
+    gap: 10px;
   }
   .logo-footer {
     display: flex;
@@ -1310,8 +1309,9 @@ span.navbar-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0%;
-    gap: 20px;
+    gap: 10px;
   }
 
   .logo-footer {
@@ -1325,11 +1325,21 @@ span.navbar-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
+    padding: 20px;
+  }
+  .Footer-info1 p {
+    line-height: 1.5;
   }
   .Footer-info2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    width: 80%;
+  }
+  .Footer-info2 p {
+    line-height: 1.5;
   }
 }
